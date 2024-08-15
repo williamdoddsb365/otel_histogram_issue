@@ -27,16 +27,16 @@ pip install -r requirements.txt
 
 Then `start_time_unix_nano` should begin to increment as expected.
 
-# Example Data
+# Example output
 
-Example data when sending **static** value as an attribute, e.g. `"attributes": {"dynamic_attribute": 1 }`
+Example output when sending **static** value as an attribute, e.g. `"attributes": {"dynamic_attribute": 1 }`
 - `start_time_unix_nano": 1723729821322137664`
 - `start_time_unix_nano": 1723729831273079179`
 - `start_time_unix_nano": 1723729841259350604`
 - `start_time_unix_nano": 1723729851258692341`
 - `start_time_unix_nano": 1723729861230025552`
 
-Example data when sending **dynamic** value as an attribute, e.g. `"attributes": {"dynamic_attribute": < RANDOM NUMBER > }`
+Example output when sending **dynamic** value as an attribute, e.g. `"attributes": {"dynamic_attribute": < RANDOM NUMBER > }`
 - `start_time_unix_nano": 1723730041127767707`
 - `start_time_unix_nano": 1723730041127767707`
 - `start_time_unix_nano": 1723730041127767707`
